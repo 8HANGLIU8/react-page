@@ -1,8 +1,11 @@
 {
+  "homepage": "https://8hangliu8.github.io/react-page",
   "name": "react-page",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
+    "predeploy": "npm run build", 
+    "deploy": "gh-pages -d build", 
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -14,9 +17,10 @@
   "bugs": {
     "url": "https://github.com/8HANGLIU8/react-page/issues"
   },
-  "homepage": "https://github.com/8HANGLIU8/react-page#readme",
+  "homepage1": "https://github.com/8HANGLIU8/react-page#readme",
   "description": "",
   "devDependencies": {
+    "gh-pages": "^6.3.0",
     "typescript": "^5.8.2"
   }
 }
