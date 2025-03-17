@@ -15,5 +15,8 @@
     "url": "https://github.com/8HANGLIU8/react-page/issues"
   },
   "homepage": "https://github.com/8HANGLIU8/react-page#readme",
-  "description": ""
+  "description": "",
+  "devDependencies": {
+    "typescript": "^5.8.2"
+  }
 }
